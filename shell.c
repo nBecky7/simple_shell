@@ -8,8 +8,7 @@
  * Return: 0 or -1 in failure.
  */
 int main(int ac, char **av, char **env)
-{ 
-	/* char *shell_pharse; */
+{       /* char *shell_pharse; */
 	command_t **cmd_list = NULL;/* Command List */
 	char *path = NULL;
 	/* history_t **history = malloc(sizeof(history_t)); */
